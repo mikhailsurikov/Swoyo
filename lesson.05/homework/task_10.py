@@ -30,20 +30,4 @@ def prime_numbers(count):
 for number in prime_numbers(10):
     print(number)
 
-# for number in prime_numbers(10):
-#     print(number)
-#
-#
-# ### Результат
-#
-#
-# 2
-# 3
-# 5
-# 7
-# 11
-# 13
-# 17
-# 19
-# 23
-# 29
+
