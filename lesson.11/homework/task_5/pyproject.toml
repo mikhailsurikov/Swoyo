@@ -1,0 +1,20 @@
+[project]
+name = "task-5"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "mihail surikov",email = "mihail.surikov@alarislabs.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "tabulate (>=0.10.0,<0.11.0)"
+]
+
+[tool.poetry]
+packages = [{include = "task_5", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+

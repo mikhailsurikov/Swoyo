@@ -1,0 +1,16 @@
+[
+  {
+    "type": "personal",
+    "name": "Ann",
+    "phone": "+79999999999",
+    "created_at": "27.09.2026 19:44",
+    "relation": "test"
+  },
+  {
+    "type": "work",
+    "name": "Джек",
+    "phone": "+79888888888",
+    "created_at": "27.09.2026 19:44",
+    "company": "работа"
+  }
+]

@@ -1,0 +1,19 @@
+[project]
+name = "task-4"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "mihail surikov",email = "mihail.surikov@alarislabs.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "humanize (>=4.16.0,<5.0.0)",
+]
+
+[tool.poetry]
+packages = [{include = "task_4", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
