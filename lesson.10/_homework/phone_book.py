@@ -1,10 +1,11 @@
-from phone_book import (PhoneBook, PersonalContact, WorkContact, PhoneBookError, InvalidPhoneError)
+from phone_book import PhoneBook, PersonalContact, WorkContact, PhoneBookError, InvalidPhoneError
 import re
 
 
 def phone_book_func():
     print("Вы запустили телефонный справочник")
     phone_book = PhoneBook()
+    phone_book.load()
     phone_book.print_actions()
     action = input()
     while action != '8':
